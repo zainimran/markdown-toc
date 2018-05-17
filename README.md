@@ -2,6 +2,11 @@
 
 > Generate a markdown TOC (table of contents) with Remarkable.
 
+## About This Fork
+Unlazified version of the Jon Schlinkert's markdown-toc (https://github.com/jonschlinkert/markdown-toc)
+Works with webpack
+Note: Stripped down some functions not needed for my use case
+
 ## Table of Contents
 
 - [Install](#install)
@@ -301,28 +306,28 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 
 ### Contributors
 
-| **Commits** | **Contributor** |  
-| --- | --- |  
-| 196 | [jonschlinkert](https://github.com/jonschlinkert) |  
-| 4   | [stefanwalther](https://github.com/stefanwalther) |  
-| 3   | [Marsup](https://github.com/Marsup) |  
-| 2   | [dvcrn](https://github.com/dvcrn) |  
-| 2   | [maxogden](https://github.com/maxogden) |  
-| 2   | [twang2218](https://github.com/twang2218) |  
-| 2   | [angrykoala](https://github.com/angrykoala) |  
-| 2   | [zeke](https://github.com/zeke) |  
-| 1   | [Vortex375](https://github.com/Vortex375) |  
-| 1   | [owzim](https://github.com/owzim) |  
-| 1   | [chendaniely](https://github.com/chendaniely) |  
-| 1   | [Daniel-Mietchen](https://github.com/Daniel-Mietchen) |  
-| 1   | [Feder1co5oave](https://github.com/Feder1co5oave) |  
-| 1   | [garygreen](https://github.com/garygreen) |  
-| 1   | [TehShrike](https://github.com/TehShrike) |  
-| 1   | [citizenmatt](https://github.com/citizenmatt) |  
-| 1   | [rafaelsteil](https://github.com/rafaelsteil) |  
-| 1   | [RichardBradley](https://github.com/RichardBradley) |  
-| 1   | [sethvincent](https://github.com/sethvincent) |  
-| 1   | [lu22do](https://github.com/lu22do) |  
+| **Commits** | **Contributor** |
+| --- | --- |
+| 196 | [jonschlinkert](https://github.com/jonschlinkert) |
+| 4   | [stefanwalther](https://github.com/stefanwalther) |
+| 3   | [Marsup](https://github.com/Marsup) |
+| 2   | [dvcrn](https://github.com/dvcrn) |
+| 2   | [maxogden](https://github.com/maxogden) |
+| 2   | [twang2218](https://github.com/twang2218) |
+| 2   | [angrykoala](https://github.com/angrykoala) |
+| 2   | [zeke](https://github.com/zeke) |
+| 1   | [Vortex375](https://github.com/Vortex375) |
+| 1   | [owzim](https://github.com/owzim) |
+| 1   | [chendaniely](https://github.com/chendaniely) |
+| 1   | [Daniel-Mietchen](https://github.com/Daniel-Mietchen) |
+| 1   | [Feder1co5oave](https://github.com/Feder1co5oave) |
+| 1   | [garygreen](https://github.com/garygreen) |
+| 1   | [TehShrike](https://github.com/TehShrike) |
+| 1   | [citizenmatt](https://github.com/citizenmatt) |
+| 1   | [rafaelsteil](https://github.com/rafaelsteil) |
+| 1   | [RichardBradley](https://github.com/RichardBradley) |
+| 1   | [sethvincent](https://github.com/sethvincent) |
+| 1   | [lu22do](https://github.com/lu22do) |
 
 ### Building docs
 

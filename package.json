@@ -1,9 +1,9 @@
 {
-  "name": "markdown-toc",
+  "name": "markdown-toc-unlazy",
   "description": "Generate a markdown TOC (table of contents) with Remarkable.",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/markdown-toc",
-  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "author": "Zain Imran",
   "contributors": [
     "=^._.^= (http://maxogden.com)",
     "Andrés (http://angrykoala.github.io)",
@@ -50,7 +50,6 @@
     "concat-stream": "^1.5.2",
     "diacritics-map": "^0.1.0",
     "gray-matter": "^3.1.1",
-    "lazy-cache": "^2.0.2",
     "list-item": "^1.1.1",
     "markdown-link": "^0.1.1",
     "minimist": "^1.2.0",
