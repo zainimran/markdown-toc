@@ -8,7 +8,6 @@
  */
 
 var utils = require('./lib/utils');
-var querystring = require('querystring');
 
 /**
  * expose `toc`
@@ -30,12 +29,6 @@ function toc(str, options) {
     .use(generate(options))
     .render(str);
 }
-
-/**
- * Expose `insert` method
- */
-
-toc.insert = require('./lib/insert');
 
 /**
  * Generate a markdown table of contents. This is the
@@ -187,7 +180,6 @@ function linkify(tok, options) {
     opts.num = tok.seen;
     var text = titleize(tok.content, opts);
     var slug = utils.slugify(tok.content, opts);
-    slug = querystring.escape(slug);
     if (opts && typeof opts.linkify === 'function') {
       return opts.linkify(tok, text, slug, opts);
     }
@@ -246,7 +238,6 @@ function strip(str, opts) {
  * Expose utils
  */
 
-toc.utils = utils;
 toc.bullets = bullets;
 toc.linkify = linkify;
 toc.slugify = utils.slugify;
